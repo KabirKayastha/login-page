@@ -1,0 +1,18 @@
+//bg-attachments
+body{
+	background-image: url(..//img/iphone.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: "Maiandra GD";
+}
+
+@media only screen and (max-height: 760px) {
+
+	body{
+		background-image: url(..//img/luffy.jpg);
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+
+
+}

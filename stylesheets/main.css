@@ -1,0 +1,21 @@
+/* line 2, ../sass/base/_base.scss */
+body {
+  background-image: url(..//img/iphone.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Maiandra GD";
+}
+
+@media only screen and (max-height: 760px) {
+  /* line 11, ../sass/base/_base.scss */
+  body {
+    background-image: url(..//img/luffy.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+/* line 1, ../sass/modules/_header.scss */
+.header {
+  position: relative;
+  top: 200px;
+}
