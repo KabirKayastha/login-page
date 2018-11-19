@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
-	<link rel="stylesheet" href="stylesheets/bootstrap/bootstrap.css">
+<!-- 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	 -->	<link rel="stylesheet" href="stylesheets/bootstrap/bootstrap.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 	<link rel="stylesheet" href="stylesheets/main.css">
 	<link rel="icon" href="img/cafe.png">
 	<title>Login Form</title>
@@ -14,12 +15,36 @@
 	<div class="container">
 		<center>
 			<div class="header">
-				<img src="img/Citygaon_Logo.png" class="img-responsive">
+				<img src="img/Citygaon_Logo.png" class="img-responsive ">
 			</div>
 		</center>
 	</div>
 
+	<div class="container">	
+			<div class="tabContainer">
+				<div class="buttonContainer">
+					<button onclick="showPanel(0,1)">sign in</button>
+					<button onclick="showPanel(1,1)">sign up</button>			
+				</div>
+
+				<div class="tabPanel">
+
+					<div class="inputWithIcon">
+						<input type="text" placeholder="Username">
+						<i class="fa fa-user fa-lg fa-fw" aria-hidden="true"></i>
+						<input type="password" placeholder="Password">
+						<i class="fa fa-unlock fa-lg fa-fw" aria-hidden="true"></i>
+					</div>
+
+					<center><button><h5>enter</h5></button></center>
+					
+				</div>
+
+				<div class="tabPanel">Tab 2:Content</div>
+			</div>
+	</div>	
 	
 
+	 <script type="text/javascript" src="js/tab.js"></script>
 </body>
 </html>

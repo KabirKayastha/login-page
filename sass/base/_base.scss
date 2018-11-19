@@ -3,7 +3,8 @@ body{
 	background-image: url(..//img/iphone.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
-	font-family: "Maiandra GD";
+	font-family: "Bellerose";
+	//margin: 0 150px;
 }
 
 @media only screen and (max-height: 760px) {
@@ -12,7 +13,7 @@ body{
 		background-image: url(..//img/luffy.jpg);
 		background-size: cover;
 		background-repeat: no-repeat;
+		background-color: #222;
+		transform: scale(0.5);
 	}
-
-
 }

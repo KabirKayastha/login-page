@@ -1,0 +1,153 @@
+.tabContainer{
+	width: 100%;
+	position: relative;
+	top: 250px;
+	//left: 20%;
+	background-color: transparent;
+	//margin: 0 100px;
+	//width: 2;
+	height: 350px;
+	//left: 100px;
+	//transform: scale(3.5);
+	//margin: 100px 0;
+
+	.buttonContainer{
+		//margin-bottom: 50px;
+		
+		
+		button {
+		font-size: 45px;
+		text-transform: uppercase;
+		border: none;
+		border-bottom: 3px solid #fff;
+		background-color: transparent;
+		color: #fff;
+		opacity: .5;
+		padding: 20px;
+		box-sizing: border-box;
+		float: left;
+		outline: none;
+		width: 50%;
+		letter-spacing: 7px;
+		font-weight: bolder;
+		}
+	}
+}
+
+.tabPanel{
+	margin-top: 20px;
+	display: none;
+	box-sizing: border-box;
+
+	.inputWithIcon{
+		position: relative;
+
+		i{
+			position: relative;
+			top: -45px;
+			left: 30px;
+			transform: scale(2);
+			color: #fff;
+		}
+	
+		input{
+			margin-top: 10px;
+			font-size: 50px;
+			width: 100%;
+			padding: 17px 100px;
+			background-color: transparent;
+			border: none;
+			border-bottom: 2px solid #fff;
+			color: #fff;
+			outline: none;
+			
+		}
+		
+		::placeholder{
+			color: #fff;
+			font-size: 40px;
+			letter-spacing: 5px;
+		}
+
+		input[type=text]{
+			margin-top: 150px;
+		}
+
+		input[type=password]{
+			margin-top: 50px;
+		}
+	}
+
+	button{
+		margin-top: 70px;
+		width: 50%;
+		border-radius: 150px;
+		padding: 0px 15px 15px 15px;
+		background-color: transparent;
+		border: 5px solid $primary-color;
+		outline: none;
+		
+		h5{
+			position: relative;
+			top: -12px;
+			font-size: 50px;
+			text-transform: uppercase;
+			//font-weight: bold;
+			letter-spacing: 5px;
+			color: $primary-color;
+		}
+	}
+}
+
+@media only screen and (max-height: 760px){
+	.tabContainer{
+		position: relative;
+		top: -200px;
+		height: 100%;
+		background-color: #ccc;
+		opacity: .8;
+	}
+}
+
+
+/* .tabContainer{
+	width: 70%;
+	height: 350px;
+	position: absolute;
+	top: 33%;
+	//transform: scale(2);
+
+}
+
+.tabContainer .buttonContainer{
+	height: 15%;
+}
+
+.tabContainer .buttonContainer button{
+	width: 50%;
+	height: 100%;
+	float: left;
+	border: none;
+	border-bottom: 3px solid #fff;
+	outline: none;
+	cursor: pointer;
+	padding: 10px;
+	background-color: transparent; 
+	color: #fff;
+	font-size: 20px;
+	opacity: .5;
+}
+
+.tabContainer .buttonContainer button:hover{
+	background-color: #ccc;
+}
+
+.tabContainer .tabPanel{
+	height: 85%;
+	background-color: gray;
+	color: #fff;
+	text-align: center;
+	padding-top: 105px;
+	box-sizing: border-box;
+	display: none; 
+} */
