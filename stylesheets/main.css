@@ -66,11 +66,7 @@ body {
   display: none;
   box-sizing: border-box;
 }
-/* line 42, ../sass/modules/_tab.scss */
-.tabPanel .inputWithIcon {
-  position: relative;
-}
-/* line 45, ../sass/modules/_tab.scss */
+/* line 46, ../sass/modules/_tab.scss */
 .tabPanel .inputWithIcon i {
   position: relative;
   top: -45px;
@@ -78,7 +74,11 @@ body {
   transform: scale(2);
   color: #fff;
 }
-/* line 53, ../sass/modules/_tab.scss */
+/* line 54, ../sass/modules/_tab.scss */
+.tabPanel .inputWithIcon .eye {
+  margin-right: 50px;
+}
+/* line 58, ../sass/modules/_tab.scss */
 .tabPanel .inputWithIcon input {
   margin-top: 10px;
   font-size: 50px;
@@ -90,21 +90,21 @@ body {
   color: #fff;
   outline: none;
 }
-/* line 66, ../sass/modules/_tab.scss */
+/* line 70, ../sass/modules/_tab.scss */
 .tabPanel .inputWithIcon ::placeholder {
   color: #fff;
   font-size: 40px;
   letter-spacing: 5px;
 }
-/* line 72, ../sass/modules/_tab.scss */
-.tabPanel .inputWithIcon input[type=text] {
+/* line 76, ../sass/modules/_tab.scss */
+.tabPanel .inputWithIcon #username {
   margin-top: 150px;
 }
-/* line 76, ../sass/modules/_tab.scss */
-.tabPanel .inputWithIcon input[type=password] {
+/* line 80, ../sass/modules/_tab.scss */
+.tabPanel .inputWithIcon #password {
   margin-top: 50px;
 }
-/* line 81, ../sass/modules/_tab.scss */
+/* line 85, ../sass/modules/_tab.scss */
 .tabPanel button {
   margin-top: 70px;
   width: 50%;
@@ -114,7 +114,7 @@ body {
   border: 5px solid #fff;
   outline: none;
 }
-/* line 90, ../sass/modules/_tab.scss */
+/* line 94, ../sass/modules/_tab.scss */
 .tabPanel button h5 {
   position: relative;
   top: -12px;
@@ -123,9 +123,24 @@ body {
   letter-spacing: 5px;
   color: #fff;
 }
+/* line 105, ../sass/modules/_tab.scss */
+.tabPanel p {
+  font-size: 25px;
+  color: #fff;
+  letter-spacing: 3px;
+}
+/* line 111, ../sass/modules/_tab.scss */
+.tabPanel .use {
+  display: inherit;
+  background-color: red;
+}
+/* line 115, ../sass/modules/_tab.scss */
+.tabPanel .use p {
+  color: #fff;
+}
 
 @media only screen and (max-height: 760px) {
-  /* line 103, ../sass/modules/_tab.scss */
+  /* line 122, ../sass/modules/_tab.scss */
   .tabContainer {
     position: relative;
     top: -200px;
@@ -134,44 +149,3 @@ body {
     opacity: .8;
   }
 }
-/* .tabContainer{
-	width: 70%;
-	height: 350px;
-	position: absolute;
-	top: 33%;
-	//transform: scale(2);
-
-}
-
-.tabContainer .buttonContainer{
-	height: 15%;
-}
-
-.tabContainer .buttonContainer button{
-	width: 50%;
-	height: 100%;
-	float: left;
-	border: none;
-	border-bottom: 3px solid #fff;
-	outline: none;
-	cursor: pointer;
-	padding: 10px;
-	background-color: transparent; 
-	color: #fff;
-	font-size: 20px;
-	opacity: .5;
-}
-
-.tabContainer .buttonContainer button:hover{
-	background-color: #ccc;
-}
-
-.tabContainer .tabPanel{
-	height: 85%;
-	background-color: gray;
-	color: #fff;
-	text-align: center;
-	padding-top: 105px;
-	box-sizing: border-box;
-	display: none; 
-} */
