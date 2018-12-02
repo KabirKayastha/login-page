@@ -131,16 +131,35 @@ body {
 }
 /* line 111, ../sass/modules/_tab.scss */
 .tabPanel .use {
-  display: inherit;
-  background-color: red;
-}
-/* line 115, ../sass/modules/_tab.scss */
-.tabPanel .use p {
   color: #fff;
+  font-size: 40px;
+  margin-left: 100px;
+}
+/* line 116, ../sass/modules/_tab.scss */
+.tabPanel .use .twitter, .tabPanel .use .facebook {
+  padding-left: 20px;
+}
+/* line 121, ../sass/modules/_tab.scss */
+.tabPanel .use::before {
+  content: 'lorem epu';
+  position: relative;
+  top: 40px;
+  left: -55px;
+  height: 10px;
+  width: 100px;
+  border-bottom: 2px solid #fff;
+  color: transparent;
+}
+/* line 133, ../sass/modules/_tab.scss */
+.tabPanel .else {
+  margin-top: 60px;
+  color: #fff;
+  font-size: 40px;
+  text-transform: uppercase;
 }
 
 @media only screen and (max-height: 760px) {
-  /* line 122, ../sass/modules/_tab.scss */
+  /* line 142, ../sass/modules/_tab.scss */
   .tabContainer {
     position: relative;
     top: -200px;

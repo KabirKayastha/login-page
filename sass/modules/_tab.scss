@@ -109,12 +109,32 @@
 	}
 	
 	.use{
-		display: inherit;
-		background-color: red;
-	
-		p{
-			color: $primary-color;
+		color: $primary-color;
+		font-size: 40px;
+		margin-left: 100px;
+		
+		.twitter, .facebook{
+			padding-left: 20px;
 		}
+	}
+
+	.use::before{
+		content: 'lorem epu';
+		position: relative;
+		top: 40px;
+		left: -55px;
+		//background-color: red;
+		height: 10px;
+		width: 100px;
+		border-bottom: 2px solid $primary-color;
+		color: transparent;
+	}
+
+	.else{
+		margin-top: 60px;
+		color: $primary-color;
+		font-size: 40px;
+		text-transform: uppercase;
 	}
 }
 
